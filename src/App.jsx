@@ -20,20 +20,6 @@ function App() {
         { name: "Activewear Set", image: "/women_activewear.png", desc: "Breathable, flexible fitness apparel." }
       ]
     },
-    menswear_urban: {
-      title: "Urban Menswear",
-      products: [
-        { name: "Urban Street T-Shirt", image: "/men_tshirt.png", desc: "Oversized fit with urban aesthetics." },
-        { name: "Urban Hoodie", image: "/men_hoodie.png", desc: "Streetwear essential hoodie." }
-      ]
-    },
-    womenswear_elegant: {
-      title: "Elegant Womenswear",
-      products: [
-        { name: "Corporate Dress", image: "/women_dress.png", desc: "Professional and elegant." },
-        { name: "Yoga Set", image: "/women_activewear.png", desc: "Comfortable activewear." }
-      ]
-    },
     sportswear: {
       title: "Sports Wear / Uniform",
       products: [
@@ -131,20 +117,6 @@ function App() {
             <div className="category-info">
               <h3>Womenswear</h3>
               <p>High-end dresses, activewear, and daily essentials.</p>
-            </div>
-          </div>
-          <div className="category-card" onClick={() => openModal('menswear_urban')}>
-            <img src="/menswear2.png" alt="Urban Menswear" />
-            <div className="category-info">
-              <h3>Urban Menswear</h3>
-              <p>Modern streetwear and premium outerwear.</p>
-            </div>
-          </div>
-          <div className="category-card" onClick={() => openModal('womenswear_elegant')}>
-            <img src="/womenswear2.png" alt="Elegant Womenswear" />
-            <div className="category-info">
-              <h3>Elegant Womenswear</h3>
-              <p>Sophisticated evening wear and corporate attire.</p>
             </div>
           </div>
           <div className="category-card" onClick={() => openModal('sportswear')}>
